@@ -28,7 +28,7 @@ setup.py (python setup.py build)
     base = 'console'
 
     executables = [
-        Executable('main.py', base=base, target_name = 'temEatsss.exe')
+        Executable('main.py', base=base, target_name = 'App.exe')
     ]
 
     data_files = [
