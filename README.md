@@ -5,6 +5,8 @@
 I just got this working and was too elated to clean up my code, there are better ways to handle paths. Either way, this should help you.
 
 ```python
+from pathlib import Path
+
 td = Path(__file__).parent.parent.parent / 'templates'
 sd = Path(__file__).parent.parent.parent / 'static'
 
